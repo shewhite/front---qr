@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>edit profile</title>
+  <!--BOOTSTRAP-->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+  <link rel="stylesheet" type="text/css" href="styleEditProfile.css">
+   <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js" defer></script>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+
+<body>
+  <div id="app">
+   
+   
+  <div class="container" id="spusten">
+      <form>
+        <div class="form-group">
+          <div class="row">
+            <div class="col-xl-6 ">
+                <label for="inputFirstName" class="text-yellow mt-2">name</label>
+                <input type="first-name" class="form-control bg-dark text-yellow" id="inputFirstName" placeholder="enter first name" style="border-color: #171717">
+            </div>
+            <div class="col-xl-6">
+                <label for="inputFamilyName" class="text-yellow mt-2">last Name</label>
+                <input type="family-name" class="form-control bg-dark text-yellow" id="inputFamilyName" placeholder="enter last name" style="border-color: #171717">
+            </div>
+          </div>
+            <div class="row">
+              <div class="col-xl-6 ">
+                  <label for="inputCompany" class="text-yellow mt-2">company</label>
+                  <input type="company" class="form-control bg-dark text-yellow" id="inputCompany" placeholder="company" style="border-color: #171717">
+              </div>
+              <div class="col-xl-6">
+                  <label for="inputCompanyAddress" class="text-yellow mt-2">company address</label>
+                  <input type="company-address" class="form-control bg-dark text-yellow" id="inputCompanyAddress" placeholder="company address" style="border-color: #171717">
+              </div>
+            </div>
+            <div class="row">
+                <div class="col-xl-6 ">
+                    <label for="inputEmail" class="text-yellow mt-2">email address</label>
+                    <input type="email" class="form-control bg-dark text-yellow" id="inputEmail" placeholder="email address" style="border-color: #171717">
+                </div>
+                <div class="col-xl-6">
+                    <label for="inputPhone" class="text-yellow mt-2">phone</label>
+                    <input type="text" class="form-control bg-dark text-yellow" id="inputPhone" placeholder="phone" style="border-color: #171717">
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-xl-6 ">
+                    <label for="inputWebsite" class="text-yellow mt-2">website</label>
+                    <input type="website" class="form-control bg-dark text-yellow" id="inputWebsite" placeholder="website" style="border-color: #171717">
+                </div>
+                <div class="col-xl-2 ">
+                    <button type="button" class="btn moj-zuti mt-5">reset</button>
+                </div>
+            </div>
+          </div>
+          <div class="row">
+               <div class="col-xl-2 ">
+                  <button type="submit" class="btn btn-lg moj-zuti mt-2" v-bind:disabled="!formIsValid">submit change</button>
+              </div>
+          </div>
+        </form>
+    
+  </div>
+  
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+</body>
+</html>

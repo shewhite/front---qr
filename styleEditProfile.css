@@ -1,0 +1,78 @@
+/******BOJE****
+ tamno siva #171717 
+ žuta #FDEC06 
+ srednje siva #4B4A43
+ */
+
+ /* latin */
+ /* remove rounding from cards, buttons and inputs
+.card, .btn, .form-control { border-radius: 0; } */
+
+@font-face {
+  font-family: 'Hind Guntur';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Hind Guntur Regular'), local('HindGuntur-Regular'), url(https://fonts.gstatic.com/s/hindguntur/v4/wXKvE3UZrok56nvamSuJd_QtvXI.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+
+/* latin */
+@font-face {
+  font-family: 'Hind Guntur';
+  font-style: normal;
+  font-weight: 600;
+  src: local('Hind Guntur SemiBold'), local('HindGuntur-SemiBold'), url(https://fonts.gstatic.com/s/hindguntur/v4/wXKyE3UZrok56nvamSuJd_zymWc0ld0.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+
+/** {
+  margin: 0;
+  padding: 0;
+}*/
+
+* {box-sizing: border-box;}
+
+ body {
+ 	background-color: #171717 ; 
+ 	font-family: "Hind Guntur";	
+ 	color: white;
+ 	font-size:20px; 
+ }
+
+ /*.form-inline input[type=text], select {
+  width: 40%;
+  padding: 12px 10px;
+  margin: 30px 10px;
+  display: inline;
+  box-sizing: border-box;
+  object-position: center;
+}*/
+
+  /*
+  MARKO
+  */
+  .text-yellow{
+    color: yellow!important;
+  }
+  .moj-input{
+    color: rgb(0, 0, 0);
+    background-color: rgb(49, 49, 45);
+  }
+  .moj-zuti{
+    color: rgb(0, 0, 0);
+    background-color: rgb(255, 255, 0);
+    border-color: #6c757d;
+  }
+  .moj-zuti:hover{
+    color: rgb(255, 255, 255);
+    background-color: #4B4A43;
+    border-color: #6c757d;
+  }
+
+  #spusten {
+
+    margin-top: 200px; 
+  }
+
+
+ 
