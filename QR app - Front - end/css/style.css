@@ -31,17 +31,37 @@ a {
   text-decoration:none;
 }
 
+body {
 
-
- body {
+}
+.regular {
  	/*background: linear-gradient(-90deg, #171717, #FDEC06); */
   background: linear-gradient(to right,#171717, #FDEC06, #171717); 
  	font-family: "Hind Guntur", "Arial";
  	
  }
 
+.MyQr{
+  background-color: #FDEC06; 
+  font-family: "Hind Guntur"; 
+ }
+
+ .grey {
+  /*background: linear-gradient(-90deg, #171717, #FDEC06); */
+  background: #171717;
+  font-family: "Hind Guntur", "Arial";
+  
+ }
+
   .nav-bar {
   background: #171717;
+  height: 40px;
+  margin-bottom: 5px;
+
+  }
+
+  .nav-bar-myqr {
+  background: #FDEC06;
   height: 40px;
   margin-bottom: 5px;
 
@@ -160,5 +180,71 @@ p {
  padding-top: 50px;
  margin-bottom: -20px; 
 
+}
+
+.tridivqr {
+
+   background-color: #FDEC06;
+   color: #171717;
+   font-family: "Hind Guntur";   
+   font-size: 30px; stroke-linejoin: 
+   align-content: center; 
+   position:relative; 
+   align-items: center;
+   /*height: 30vh; /* Fallback for browsers that do not support Custom Properties */
+   height: calc(var(--vh, 1vh) * 60);
+   display:block;
+  }
+
+ #centar {
+  display: block;
+  margin-left: auto;
+  margin-right: auto; 
+  position: relative; 
+  max-width: 100%;
+  max-height: 100%;
+  padding: 10px 20px 20px 20px; 
+  text-align: center; 
+ }
+
+
+
+ /*---edit profile--*/
+ .text-yellow{
+    color: yellow!important;
+  }
+  .moj-input{
+    color: rgb(0, 0, 0);
+    background-color: rgb(49, 49, 45);
+  }
+  .moj-zuti{
+    color: rgb(0, 0, 0);
+    background-color: rgb(255, 255, 0);
+    border-color: #6c757d;
+  }
+  .moj-zuti:hover{
+    color: rgb(255, 255, 255);
+    background-color: #4B4A43;
+    border-color: #6c757d;
+  }
+
+  #spusten {
+
+    margin-top: 100px; 
+    margin-right: auto;
+    margin-left: auto;
+
+  }
+
+  #borderi {
+   border-color: #171717;
+
+  }
+
+  h3.edit {
+  margin-left: 10px;
+  margin-top: 20px, 
+  font-size: 20px; 
+  color: #171717;
 }
 
