@@ -1,0 +1,48 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+	<title>vCard</title>
+
+    <link rel="stylesheet" type="text/css" href="./css/style.css"/>
+	<script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js" defer></script>
+	<script src="./js/main.js" defer></script>
+
+</head>
+<body>
+  <div id="app">
+	<div class="nav-bar">
+		<a href="prva.html"><h3>home</h3></a>
+	</div>
+
+
+  <div class="glavni">
+  	<!--DIV SA SVIJETLOM SLIKOM-->
+	<div class="tridiv" @mouseover="currentImageScan = imageBlackScan"  @mouseleave="currentImageScan = imageDva">
+	 <img class="centar" :src="currentImageScan"/> 		
+		<a href="scan.html" class="svijetloSivi"> 
+        <span class="hyperspan"></span>
+    </a>
+	</div>
+
+	<!--DIV PROFILE-->
+	<div class="tridiv" v-on:click="">
+		<h2>PROFILE</h2>
+		 <a href="profile.html"> 
+        <span class="hyperspan"></span>
+    </a> 
+	</div>
+
+	<!--DIV CONTACT-->
+	<div class="tridiv" v-on:click="">
+		<h2>CONTACTS</h2>
+		<a href="contacts.html"> 
+        <span class="hyperspan"></span>
+    </a>
+	</div>
+
+  </div>
+  </div>
+
+</body>
+</html>

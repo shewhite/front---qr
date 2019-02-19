@@ -1,0 +1,48 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+	<title>profile</title>
+    <link rel="stylesheet" type="text/css" href="./css/style.css"/>
+	<script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js" defer></script>
+	<script src="./js/main.js" defer></script>
+
+</head>
+<body>
+<div id="app">		
+ 	<div class="nav-bar">
+		<a href="prva.html"><h3>home</h3></a>
+	</div>
+
+	<div class="glavni">
+  	<!--DIV EDIT PROFILE-->
+		<div class="tridiv">
+			<h4>Marko Marulic</h4>
+			<p class="editProfile">edit profile</p>
+			<a href="edit-profile.html" class="svijetloSivi"> 
+        	<span class="hyperspan"></span>
+    		</a>
+ 	 </div>
+
+	<!--MY QR-->	 
+   		<div class="tridiv" @mouseover="currentImage = imageBlack" @mouseleave="currentImage = image">
+			 <img class="centar" :src="currentImage"/> 
+			 <a href="myqr.html"> 
+    		 <span class="hyperspan"></span>
+    		 </a> 
+  		</div>
+  
+	<!--CHANGE PICTURE-->
+		<div class="tridiv">
+			<p class="change">change picture</p>
+			<img class="left" v-bind:src="imageUserBlank"> 
+			<a href="" class="svijetloSivi"> 
+        	<span class="hyperspan"></span>
+       	 </a>
+    	</div>
+		
+	</div>
+	</div>
+
+</body>
+</html>

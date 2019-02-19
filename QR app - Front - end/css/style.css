@@ -1,0 +1,164 @@
+/******BOJE****
+ tamno siva #171717 
+ žuta #FDEC06 
+ srednje siva #4B4A43
+ */
+
+ /* latin */
+@font-face {
+  font-family: 'Hind Guntur';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Hind Guntur Regular'), local('HindGuntur-Regular'), url(https://fonts.gstatic.com/s/hindguntur/v4/wXKvE3UZrok56nvamSuJd_QtvXI.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+
+/* latin */
+@font-face {
+  font-family: 'Hind Guntur';
+  font-style: normal;
+  font-weight: 600;
+  src: local('Hind Guntur SemiBold'), local('HindGuntur-SemiBold'), url(https://fonts.gstatic.com/s/hindguntur/v4/wXKyE3UZrok56nvamSuJd_zymWc0ld0.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  text-decoration:none;
+}
+
+
+
+ body {
+ 	/*background: linear-gradient(-90deg, #171717, #FDEC06); */
+  background: linear-gradient(to right,#171717, #FDEC06, #171717); 
+ 	font-family: "Hind Guntur", "Arial";
+ 	
+ }
+
+  .nav-bar {
+  background: #171717;
+  height: 40px;
+  margin-bottom: 5px;
+
+  }
+
+ .glavni {
+ 	color: #FDEC06;
+ 	display: grid;
+ 	grid-gap: 7px;
+ 
+ 	width: 100%;
+ 	height: 100%; 
+ }
+
+
+.tridiv {
+
+	 background-color: #171717;
+	 color: #FDEC06;
+	 font-family: "Hind Guntur";	 
+	 font-size: 30px; 
+	 align-content: center; 
+	 position:relative; 
+	 align-items: center;
+	 /*height: 30vh; /* Fallback for browsers that do not support Custom Properties */
+   height: calc(var(--vh, 1vh) * 30);
+   display:inline-block;
+  }
+
+
+  
+div.tridiv:hover {
+    background-color: #FDEC06;
+    color: #171717;
+
+}
+
+img.centar {
+	display: block;
+	margin-left: auto;
+	margin-right: auto; 
+	position: relative;	
+  max-width: 100%;
+  max-height: 100%;
+  padding: 10px 20px 20px 20px; 
+}
+
+
+img.left {
+  display: inline-block;
+  max-width: 100%;
+  max-height: 85%;
+  position: relative; 
+  margin-left: 30vw;
+  margin-right: 70vw; 
+  margin-bottom: -10px;
+  padding-top: 2vh; 
+}
+
+img.left:hover {
+  border: 2px #171717;
+}
+
+
+h2 {
+	text-align: center; 
+  padding: 80px 20px 20px 20px; 
+
+}
+
+h4 {
+  text-align: center; 
+  padding: 30px 20px 20px 20px; 
+  font-size: 40px; 
+
+}
+
+h3 {
+	margin-left: 10px;
+	margin-top: 20px, 
+	font-size: 20px; 
+  color: #4B4A43;
+}
+
+h3:hover {
+  color: white;
+}
+
+p {
+  text-align: center; 
+  padding-bottom: 0 auto; 
+}
+
+
+.hyperspan {
+    position:absolute;
+    width:100%;
+    height:100%;
+    left:0;
+    top:0;
+}
+
+
+.bottom-right {
+  position: absolute;
+  bottom: 8px;
+  right: 520px; 
+  left:; 
+  color: white;S
+}
+
+.change {
+ position: absolute;
+ margin top:  -30px;
+ margin-left: 650px; 
+ padding-top: 50px;
+ margin-bottom: -20px; 
+
+}
+
